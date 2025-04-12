@@ -1,40 +1,19 @@
-const slides = document.querySelector('.slides');
-const slideItems = document.querySelectorAll('.slide');
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
-const dotsContainer = document.getElementById('dots');
-
-let currentIndex = 0;
-const totalSlides = slideItems.length;
-
-// Create dots
-for (let i = 0; i < totalSlides; i++) {
-  const dot = document.createElement('button');
-  dot.addEventListener('click', () => goToSlide(i));
-  dotsContainer.appendChild(dot);
+function logSubmit(event) {
+  log.textContent = `Form Submitted! Timestamp: ${event.timeStamp}`;
+  event.preventDefault();
 }
 
-const dots = dotsContainer.querySelectorAll('button');
+const form = document.querySelector(".form")
+form.addEventListener("submit", logSubmit);
 
-function updateSlider() {
-  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-  dots.forEach(dot => dot.classList.remove('active'));
-  dots[currentIndex].classList.add('active');
-}
 
-function goToSlide(index) {
-  currentIndex = index;
-  updateSlider();
-}
 
-prevBtn.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-  updateSlider();
-});
-
-nextBtn.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % totalSlides;
-  updateSlider();
-});
-
-updateSlider(); // Initialize
+// const errorField = document.querySelector("#errorField input");
+// errorField.addEventListener("blur", () => {
+//   const parent = errorField.parentElement;
+//   if (errorField.value.trim() === "") {
+//     parent.classList.add("error");
+//   } else {
+//     parent.classList.remove("error");
+//   }
+// });

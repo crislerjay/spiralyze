@@ -15,6 +15,14 @@
 <body>
   <main style="background-color: #194D44;">
 
+    <div class="strokeme">
+      GET AN
+    </div>
+
+    <svg viewBox="0 0 450 50">
+      <text y="50">Scalable Title</text>
+    </svg>
+    
     <h1 class="heading01">
       <span class="heading01--outline">GET AN</span><br>
       <span>INTERVENTION</span>
@@ -113,6 +121,48 @@
         <div class="dots" id="dots"></div>
       </div>
     </div>
+
+
+    <div class="input-group">
+      <!-- Empty -->
+      <div class="field">
+        <input type="text" placeholder=" " />
+        <label>Label text</label>
+      </div>
+  
+      <!-- Focused -->
+      <div class="field">
+        <input type="text" placeholder=" " autofocus />
+        <label>Label text</label>
+      </div>
+  
+      <!-- Filled -->
+      <div class="field">
+        <input type="text" placeholder=" " value="Typed text by user" />
+        <label>Label text</label>
+      </div>
+  
+      <!-- Error -->
+      <div class="field error" id="errorField">
+        <input type="text" placeholder=" " />
+        <label>Label text</label>
+        <div class="tooltip">This field can’t be empty.<br>Please fill it in.</div>
+      </div>
+    </div>
+  
+    <button id="playBtn">▶️ Play Video</button>
+
+    <div id="videoModal">
+      <div class="video-container">
+        <video id="videoPlayer" controls>
+          <source src="./video/cat.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <button id="closeModal">✖</button>
+      </div>
+    </div>
+
+
 
 
   </main>

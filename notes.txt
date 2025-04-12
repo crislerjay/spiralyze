@@ -1,19 +1,22 @@
+design
+https://www.figma.com/design/X76gYOBY3yWCrxkzFplF9S/Spiralyze-Dev-Test-2-Version-2?node-id=0-1&p=f
+
 Technical Requirements
 - Use CSS and JavaScript (no libraries) to complete the task.
 - Add these features to your submission:
 
 Hover Effects:
-  - Add hover on all menus. Use the desktop ÅgHome menuÅh as a reference.
+  - Add hover on all menus. Use the desktop ÔøΩgHome menuÔøΩh as a reference.
   - Add hover on footer links. Use color palettes as a good reference.
 
 Thank You Page:
   - Add a Thank you page with your own design. This will be displayed after submitting the form.
 
 Dropdown List:
-  -Add a dropdown list of countries in the form, donÅft leave it blank.
+  -Add a dropdown list of countries in the form, donÔøΩft leave it blank.
 
 Play Button:
-  - The play button should play a video. The video source is up to you. It should autoplay once clicked or tapped. DonÅft embed video as background.
+  - The play button should play a video. The video source is up to you. It should autoplay once clicked or tapped. DonÔøΩft embed video as background.
 
 Second CTA:
   - The second CTA or button should not anchor to the form.
