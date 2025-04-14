@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (allValid) {
-        window.location.href = "../thanks/";
+        window.location.href = "thank-you.html";
         inputs.forEach(input => {
           if (input.tagName === 'SELECT') {
             input.selectedIndex = 0;
