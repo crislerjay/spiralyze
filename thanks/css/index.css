@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.thank-you-container {
+  text-align: center;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you__ttl {
+  font-size: 2.5rem;
+  color: #5BC8AF;
+  margin-bottom: 10px;
+}
+
+.thank-you__text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #194D44;
+}
+
+.thank-you__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5BC8AF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.thank-you__btn:hover {
+  background-color: #297C6B;
+}

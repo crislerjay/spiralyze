@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (allValid) {
-        alert('Form submitted successfully!');
+        window.location.href = "../thanks/";
         inputs.forEach(input => {
           if (input.tagName === 'SELECT') {
             input.selectedIndex = 0;
